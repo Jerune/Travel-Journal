@@ -65,4 +65,66 @@ ul {
 .header img {
   width: 24px;
   margin-right: 7px;
+}
+
+.main {
+  padding: 28px 40px;
+}
+
+.locationCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 18px;
+  border-bottom: 1px solid #F5F5F5;
+}
+.locationCard:last-child {
+  border-bottom: none;
+}
+.locationCard_image {
+  min-width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.locationCard img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.locationCard_data {
+  margin-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.locationCard_data_location {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.locationCard_data_location span {
+  color: #F55A5A;
+  margin-right: 4px;
+}
+.locationCard_data_location h3 {
+  margin-right: 12px;
+}
+.locationCard_data h2 {
+  margin-bottom: 14px;
+}
+.locationCard_data_dates {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+.locationCard_data p {
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,57 @@
+.locationCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 18px;
+    border-bottom: 1px solid #F5F5F5;
+    &:last-child{
+        border-bottom: none;
+    }
+    &_image{
+        min-width: 125px;
+        height: 168px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    img{
+        height: 100%;
+        object-fit: contain;
+    }
+    &_data{
+        margin-top: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &_location{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 4px;
+            span{
+                color: $color-primary;
+                margin-right: 4px;
+            }
+            h3{
+                margin-right: 12px;
+            }
+        }
+        h2{
+            margin-bottom: 14px;
+        }
+        &_dates{
+            display: flex;
+            flex-direction: row;
+            font-weight: 700;
+            margin-bottom: 9px;
+        }
+        p{
+            line-height: 1.5;
+        }
+    }
+
+}
