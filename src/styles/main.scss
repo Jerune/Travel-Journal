@@ -1,7 +1,8 @@
 // Utils
-@import "./sass/general.scss";
 @import "./sass/variables.scss";
+@import "./sass/general.scss";
 
 // Components
-
-// Pages
+@import "../components/Header/Header.scss";
+@import "../components/MainContent/MainContent.scss";
+@import "../components/LocationCard/LocationCard.scss";
